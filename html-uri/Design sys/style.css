@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&family=Inter&display=swap');
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+
+
+.colors{
+    border: solid 1px black;
+}
+.Lime, .Yellow, .Orange, .Red{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+    border: solid 3px black;
+}
+
+.Lime{
+    background-color: #cbf078;
+}
+
+.Yellow{
+    background-color: #f8f398;
+}
+
+.Orange{
+    background-color: #f1b963;
+}
+
+.Red{
+    color: white;
+    background-color: #e46161;
+}
+
+section.fonts{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 20px;
+    border: solid 2px black;
+    justify-content: space-between;
+}
+
+.font1{
+    padding: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    margin: 10px;
+    width: 35%;
+}
+
+.font2{
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
+    margin: 10px;
+    width: 35%;
+}
+
+.font3{
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px;
+    width: 35%; 
+}
+
+section.text-styles{
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
+    border: solid 2px black;
+}
+
+.text-styles h1{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+.text-styles h3{
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+.text-styles p{
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: "Helvetica", sans-serif;
+}

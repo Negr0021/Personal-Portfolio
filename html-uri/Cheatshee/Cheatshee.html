@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html&CSS Pocket edition</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the pocket edition WebDev dictionary</h1>
+            <nav class="h_menu">
+                <ul>
+                    <li><a href="#HTML">HTML</a></li>
+                    <li><a href="#CSS">CSS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="HTML" id="HTML">
+            <nav class="menu1">
+                <h2>HTML</h2>
+                <ul>
+                    <li><a href="#Body">Body Element</a></li>
+                    <li><a href="#Nav">Navigation</a></li>
+                    <li><a href="#Lists">Lists</a></li>
+                    <li><a href="#Links">Links</a></li>
+                </ul>
+            </nav>
+            <section id="Body">
+                <h3>Body Elements</h3>
+                <p class="body">When i say body elements, I refer to the skeleton of the html file, the header, footer, not just the "Body" tag</p>
+                <img class="body" src="RESURSE/html_elements.jpeg">
+                <figcaption>This is an example of the structure of and html page</figcaption>
+                <p class="head">The head tag represents the title and info about the page.<span class="body"> The body tag is where everything goes, from text to images. </span><span class="footer">And the footer tag is usualy used to add "ABOUT YOU INFO"</span></p>
+            </section>
+            <section id="Nav">
+                <h3>Navigation elements</h3>
+                <p>The nav HTML element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</p>
+                <img src="RESURSE/Screenshot 2023-05-05 at 13.19.27.png">
+                <figcaption>In this example, a nav block is used to contain an unordered list (ul) of links. With appropriate CSS, this can be presented as a sidebar, navigation bar, or drop-down menu.The semantics of the nav element is that of providing links. However a nav element doesn't have to contain a list, it can contain other kinds of content as well. In this navigation block, links are provided in prose</figcaption>
+            </section>
+            <section id="Lists">
+                <h3>Lists</h3>
+                <h3>This section is about lists</h3>
+                <table class="Lists" width="auto" border=".5">
+                    <thead>
+                        <tr>
+                            <td align="center"><h3>Ordered Lists</h3></td>
+                            <td align="center"><h3>Unordered Lists</h3></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center"><img src="RESURSE/Ordered list.png"></td>
+                            <td align="center"><img src="RESURSE/UNORDERED LSITS.png"></td>
+                        </tr>
+                        <tr>
+                            <td align="center"><h4>This is an example of an ordered list</h4></td>
+                            <td align="center"><h4>This is an example of and unordered list</h4></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td align="center">Ordered lists in HTML are the ones in which all the elements of the list are placed in a proper sequence of numbers, alphabets, or Roman numerals. These lists are very helpful whenever you wish to list down multiple elements that are supposed to occur in a certain order.</td>
+                            <td align="center">The ul element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle, or a square.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <section id="Links">
+                <h3>Links</h3>
+                <img class="links" src="RESURSE/Links-in-HTML.webp">
+                <figcaption>HTML links or hyperlinks connect one resource on the web to another. The resource may be an image, a web page, a program, a video clip, an audio clip, an element within a web page, etc, or anything that can be hosted on the internet</figcaption>
+            </section>
+        </div>
+        <div class="CSS" id="CSS">
+            <nav class="menu2">
+                <ul>
+                    <h2>CSS</h2>
+                    <li><a href="#Box">Box Model</a></li>
+                    <li><a href="#Selectors">Selectors</a></li>
+                    <li><a href="#Type weight">Type weight</a></li>
+                </ul>
+            </nav>
+            <section id="Box">
+                <h3>The Box Model</h3>
+                <p class="box">Everything displayed by CSS is a box. Understanding how the CSS Box Model works is therefore a core foundation of CSS.A really important thing to remember when writing CSS, or working on the web as a whole, is that everything displayed by CSS is a box. Whether that's a box that uses border-radius to look like a circle, or even just some text: the key thing to remember is that it's all boxes.</p>
+                <span class="box">Boxes have different behavior based on their display value, their set dimensions, and the content that lives within them. This content could be even more boxes—generated by child elements—or plain text content. Either way, this content will affect the size of the box by default.
+
+                    You can control this by using extrinsic sizing, or, you can continue to let the browser make decisions for you based on the content size, using intrinsic sizing.</span>
+            </section>
+            <section id="Selectors">
+                <h3>Selectors</h3>
+                <p class="Simple selectors">Simple selectors</p>
+                <p class="Combinator selectors">Combinator selectors</p>
+                <p class="Pseudo-class selectors">Pseudo-class selectors</p>
+                <p class="Pseudo-element selectors">Pseudo-element selectors</p>
+                <p class="Attribute selectors">Attribute selectors</p>
+            </section>
+            <section id="type weight">
+                <h3>Font Weight</h3>
+                <p>The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family that is currently set.</p>
+                <table class="fonts" width="900px" border="2" cellspacing="2" cellpadding="2">
+                    <thead>
+                        <tr>
+                            <td align="center">Value</td>
+                            <td align="center">Common Weight Name</td>
+                        </tr>
+                    </thead>
+                    <tboby>
+                        <tr>
+                            <td align="center">100</td>
+                            <td align="center">Thin</td>
+                        </tr>
+                        <tr>
+                            <td align="center">200</td>
+                            <td align="center">Extra Light</td>
+                        </tr>
+                        <tr>
+                            <td align="center">300</td>
+                            <td align="center">Light</td>
+                        </tr>
+                        <tr>
+                            <td align="center">400</td>
+                            <td align="center">Normal</td>
+                        </tr>
+                        <tr>
+                            <td align="center">500</td>
+                            <td align="center">Medium</td>
+                        </tr>
+                        <tr>
+                            <td align="center">600</td>
+                            <td align="center">Semi Bold</td>
+                        </tr>
+                        <tr>
+                            <td align="center">700</td>
+                            <td align="center">Bold</td>
+                        </tr>
+                        <tr>
+                            <td align="center">800</td>
+                            <td align="center">Extra Bold</td>
+                        </tr>
+                        <tr>
+                            <td align="center">900</td>
+                            <td align="center">Black(Heavy)</td>
+                        </tr>
+                    </tboby>
+                    <tfoot>
+                        <tr>
+                            <td align="center" colspan="2">A short resume for the font weights</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </div>
+    </body>
+</html>
